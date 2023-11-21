@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Cormorant Garamond, sans-serif;
+}
+
+header, #home, #about, #service, #portfolio, footer{
+    padding: 0 40px;
+}
+
+/* Styling header */
+.logo {
+    font-family: Days One, serif;
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;display: block;
+    text-align: center;
+}
+
+.nav__list{
+    list-style: none;
+    margin: 20px;
+}
+
+.nav__item{
+    padding: .4rem;
+    text-align: center;
+}
+
+.nav__list .nav__item a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.nav__item a:hover{
+    border-bottom: 2px solid black;
+}
+
+/* Styling home */
+#home{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.heading{
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+.job__title{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.btn {
+    font-family: Cormorant Garamond, sans-serif;
+    padding: 12px 40px;
+    font-size: 1.2rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 50px;
+    margin: 20px 8px 20px 0;
+}
+
+.black__btn{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.black__btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.white__btn{
+    background-color: white;
+    border: 1px solid black;
+}
+
+.white__btn:hover{
+    background-color: #eff;
+    cursor: pointer;
+}
+
+.home__right{
+    /* margin-left: -40px; */
+    max-width: 100%;
+    max-height: 40%;
+}
+
+.home__right img{
+    display: block;
+    background-color: white;
+    max-width: 100%;
+    border-radius: 8px;
+}
