@@ -65,6 +65,7 @@ header, #home, #about, #service, #portfolio, footer{
     font-size: 1.2rem;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 50px;
     margin: 20px 8px 20px 0;
+    border-radius: 4px;
 }
 
 .black__btn{
@@ -234,10 +235,98 @@ header, #home, #about, #service, #portfolio, footer{
     display: none;
 }
 
+/* Style portfolio */
+#portfolio{
+    text-align: center;
+    padding: 40px 10%;
+    height: 100vh;
+}
+
+.portfolio__heading::after{
+    position: absolute;
+    content: '';
+    width: 360px;
+    border-bottom: 1px solid black;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.portfolio__item{
+    position: relative;
+    display: block;
+    list-style: none;
+    width: 100%;
+    margin-bottom: 40px;
+    /* background-color: antiquewhite; */
+    height: 250px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.portfolio__item:nth-child(3), .portfolio__item:nth-child(4), .portfolio__item:nth-child(5), .portfolio__item:nth-child(6){
+    display: none;
+}
+
+.portfolio__item:hover{
+    opacity: 0.6;
+}
+
+.portfolio__item:hover h3{
+    display: block;
+}
+
+.portfolio__item h3{
+    font-size: 1.8rem;
+    position: absolute;
+    bottom: 25%;
+    left: 10%;
+    display: none;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #eff;
+}
+
+.item__cart{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.item__cart img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+
+}
+
+
 @media screen and (min-width: 680px) {
     .item__desc{
         display: block;
     }
+
+    .portfolio__list{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 -10px;
+        margin-top: 60px;
+    }
+
+    .portfolio__item{
+        width: 50%;
+        padding: 0 10px;
+    }
+
+    .portfolio__item:nth-child(3), .portfolio__item:nth-child(4){
+        display: inline-block;
+    }
+
+    .portfolio__item:nth-child(5), .portfolio__item:nth-child(6){
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 900px) {
@@ -283,5 +372,15 @@ header, #home, #about, #service, #portfolio, footer{
 
     .service__item{
         margin: 0 20px;
+    }
+
+    /* Style portfolio */
+    .portfolio__item{
+        width: 33.33%;
+        padding: 0 10px;
+    }
+
+    .portfolio__item:nth-child(3), .portfolio__item:nth-child(4), .portfolio__item:nth-child(5), .portfolio__item:nth-child(6){
+        display: inline-block;
     }
 }
