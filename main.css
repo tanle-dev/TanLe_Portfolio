@@ -116,7 +116,7 @@ header, #home, #about, #service, #portfolio, footer{
     margin-bottom: 100px;
 }
 
-.about__heading, .my__skills, .service__heading, .portfolio__heading{
+.about__heading, .my__skills, .service__heading, .portfolio__heading, .contact__us__heading{
     margin-bottom: 40px;
     position: relative;
     font-size: 40px;

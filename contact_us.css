@@ -1,0 +1,18 @@
+
+.container{
+    text-align: center;
+}
+
+.contact__us__heading{
+    margin-top: 20px;
+}
+
+.contact__us__heading::after{
+    position: absolute;
+    content: '';
+    width: 220px;
+    border-bottom: 1px solid black;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+}
