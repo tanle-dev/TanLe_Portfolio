@@ -6,12 +6,12 @@
 - Typography: Using different font families are used for the body text and logo. It will enhance the visual appeal.
   
 ## 2. Website's Accessibility
-- Sematic HTML: Using some tags <header>, <nav>, <main>, <section>, <footer>. It aids screen readers and assistive tools can interpret the structure.
+- Sematic HTML: Using some tags \<header\>, \<nav\>, \<main\>, \<section\>, \<footer\>. It aids screen readers and assistive tools can interpret the structure.
 - Alt text for img tag: This supports people with disability to access website by screen reader and allow them to understand the image.
 - Aria tags: 
 - Responsive Design: Using media query to ensure website is usable across various devices.
 
-## 3. Search Engine O
+## 3. Search Engine Optimization
 - Meta tags: Including meta descriptions and title tags which help website improve click-through rates from search engine.
 - Internal links: The navigation bar provides internal links to different sections of website. It make web distribute page authority and establish hierachy.
 - Adding robots.txt: help control how search engine crawl and index my website.
