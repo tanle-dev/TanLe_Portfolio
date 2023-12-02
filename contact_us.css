@@ -1,8 +1,4 @@
 
-.container{
-    text-align: center;
-}
-
 .contact__us__heading::after{
     position: absolute;
     content: '';
@@ -21,7 +17,7 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
-.contact__us__form h3,p{
+.contact__us__form h3, .contact__us__form p{
     text-align: center;
     margin: 20px;
 }

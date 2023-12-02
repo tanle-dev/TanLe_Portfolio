@@ -7,6 +7,7 @@
       name="keywords"
       content="software developer, hire, mobile developer, jobs, portfolio, resume"
     />
+    <meta name="description" content="This portfolio belongs to Tan Le - which is a software developer">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,21 +18,21 @@
     <title>Tan Le Portfolio</title>
   </head>
   <body>
-    <div id="container" class="container">
-      <header>
-        <a class="logo" href="#">tanle.</a>
-        <nav class="navbar">
-          <ul class="nav__list">
-            <li class="nav__item"><a href="#home">HOME</a></li>
-            <li class="nav__item"><a href="#about">ABOUT</a></li>
-            <li class="nav__item"><a href="#service">SERVICE</a></li>
-            <li class="nav__item"><a href="#portfolio">PORTFOLIO</a></li>
-            <li class="nav__item"><a href="./contact_us.html">CONTACT</a></li>
-          </ul>
-        </nav>
-      </header>
+    <header>
+      <a class="logo" href="#">tanle.</a>
+      <nav class="navbar" id="container" role="navigation">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home">HOME</a></li>
+          <li class="nav__item"><a href="#about">ABOUT</a></li>
+          <li class="nav__item"><a href="#service">SERVICE</a></li>
+          <li class="nav__item"><a href="#portfolio">PORTFOLIO</a></li>
+          <li class="nav__item"><a href="./contact_us.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
 
-      <div id="home">
+    <main id="container" class="container" role="main">
+      <section id="home">
         <div class="home__left">
           <div class="left__container">
             <h1 class="heading">TAN LE</h1>
@@ -39,8 +40,8 @@
             <div class="contact__btn">
               <button class="hire__me black__btn btn">HIRE ME</button>
               <button class="explore__more white__btn btn">
-                EXPLORE MORE
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <a href="#about">EXPLORE MORE
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
               </button>
             </div>
           </div>
@@ -51,9 +52,9 @@
             alt="Image of Tan Le - a software developer"
           />
         </div>
-      </div>
+      </section>
 
-      <div id="about">
+      <section id="about">
         <div class="about__info">
           <h2 class="about__heading">ABOUT</h2>
           <p class="about__desc">
@@ -98,9 +99,9 @@
             </li>
           </ul>
         </div>
-      </div>
+      </section>
 
-      <div id="service">
+      <section id="service">
         <div class="service__background"></div>
         <div class="service__contain">
           <div class="service__container">
@@ -136,65 +137,65 @@
             </ul>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div id="portfolio">
+      <section id="portfolio">
         <h2 class="portfolio__heading">MY RECENT WORKS</h2>
         <ul class="portfolio__list">
           <li class="portfolio__item">
             <h3 class="project__title">Project Title</h3>
             <div class="item__cart">
-              <img src="./assets/imgs/project_1.jpg" alt="Image of project 1" />
+              <img role="button" src="./assets/imgs/project_1.jpg" alt="Image of project 1" />
             </div>
           </li>
           <li class="portfolio__item">
             <h3 class="project__title">Project Title</h3>
             <div class="item__cart">
-              <img src="./assets/imgs/project_2.jpg" alt="Image of project 2" />
+              <img role="button" src="./assets/imgs/project_2.jpg" alt="Image of project 2" />
             </div>
           </li>
           <li class="portfolio__item">
             <h3 class="project__title">Project Title</h3>
             <div class="item__cart">
-              <img src="./assets/imgs/project_3.jpg" alt="Image of project 3" />
+              <img role="button" src="./assets/imgs/project_3.jpg" alt="Image of project 3" />
             </div>
           </li>
           <li class="portfolio__item">
             <h3 class="project__title">Project Title</h3>
             <div class="item__cart">
-              <img src="./assets/imgs/project_4.jpg" alt="Image of project 4" />
+              <img role="button" src="./assets/imgs/project_4.jpg" alt="Image of project 4" />
             </div>
           </li>
           <li class="portfolio__item">
             <h3 class="project__title">Project Title</h3>
             <div class="item__cart">
-              <img src="./assets/imgs/project_5.jpg" alt="Image of project 5" />
+              <img role="button" src="./assets/imgs/project_5.jpg" alt="Image of project 5" />
             </div>
           </li>
           <li class="portfolio__item">
             <h3 class="project__title">Project Title</h3>
             <div class="item__cart">
-              <img src="./assets/imgs/project_6.jpg" alt="Image of project 6" />
+              <img role="button" src="./assets/imgs/project_6.jpg" alt="Image of project 6" />
             </div>
           </li>
         </ul>
         <button class="load__more white__btn btn">LOAD MORE</button>
-      </div>
-    </div>
+      </section>
+    </main>
 
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
       <ul class="social__list">
         <li class="social__item">
-          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
         </li>
         <li class="social__item">
-          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
         </li>
         <li class="social__item">
-          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
         </li>
         <li class="social__item">
-          <a href=""><i class="fa-brands fa-google"></i></i></a>
+          <a href="https://mail.google.com/"><i class="fa-brands fa-google"></i></i></a>
         </li>
       </ul>
       <p class="copy__right">Copy Right 2023</p>
